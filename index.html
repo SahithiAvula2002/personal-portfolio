@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Typed(".typing-text", {
+        strings: ["Frontend Developer", "ECE Graduate", "UI/UX designer", "Lifelong Learner"],
+        typeSpeed: 60,
+        backSpeed: 40,
+        loop: true
+      });
+    });
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- Title -->
+  <div class="hero-section">
+    <h1 class="main-title">Personal Portfolio</h1>
+    <p class="subtitle">Aspiring Frontend Developer | Turning Ideas into Interfaces</p>
+
+  </div>
+  
+  <!-- Navigation Buttons -->
+  <div class="nav-buttons">
+    <a href="index.html" class="nav-btn active">Home</a>
+    <a href="about.html" class="nav-btn">About</a>
+    <a href="projects.html" class="nav-btn">Projects</a>
+    <a href="contact.html" class="nav-btn">Contact</a>
+    <a href="resume.pdf" class="nav-btn" target="_blank">Resume</a>
+  </div>
+
+  <!-- Page Content -->
+  <section class="page-content">
+    <h2>Welcome to My Portfolio</h2>
+    <h3>Hello, I'm <span class="typing-name">Sahithi</span></h3>
+    <span class="typing-text"></span>
+  </section>
+
+</body>
+</html>
